@@ -1,0 +1,1069 @@
+[
+	{
+		"name": "Mercenary",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": []
+		},
+		"equipment": [ "Maul", "Sword", "Axe", "Light Armor", "Heavy Armor", "Shield" ],
+		"specialty": "War Craft",
+		"movement": {
+			"move": 4,
+			"jump": 6,
+			"swim": true
+		},
+		"growth": {
+			"HP": 8.0,
+			"MP": 1.5,
+			"ATK": 4.5,
+			"DEF": 4.0,
+			"MND": 3.0,
+			"RES": 3.5,
+			"SPD": 0.83
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 6
+			},
+			{
+				"attribute": "DEF",
+				"value": 6
+			}
+		]
+	},
+
+	{
+		"name": "Scoundrel",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Mercenary",
+					"level": 2
+				}
+			]
+		},
+		"equipment": [ "Dagger", "Crossbow", "Light Armor" ],
+		"specialty": "Trickery",
+		"movement": {
+			"move": 4,
+			"jump": 6,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.5,
+			"MP": 2.5,
+			"ATK": 3.5,
+			"DEF": 3.5,
+			"MND": 3.5,
+			"RES": 3.5,
+			"SPD": 1.38
+		},
+		"mastery": [
+			{
+				"attribute": "SPD",
+				"value": 3
+			},
+			{
+				"attribute": "EVA",
+				"value": 1
+			},
+			{
+				"attribute": "CRIT",
+				"value": 2
+			}
+		]
+	},
+
+	{
+		"name": "Knight",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Mercenary",
+					"level": 3
+				}
+			]
+		},
+		"equipment": [ "Sword", "Spear", "Robe", "Heavy Armor", "Shield" ],
+		"specialty": "Chivalry",
+		"movement": {
+			"move": 4,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 7.5,
+			"MP": 1.5,
+			"ATK": 4.0,
+			"DEF": 5.0,
+			"MND": 3.0,
+			"RES": 4.0,
+			"SPD": 0.75
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 6
+			},
+			{
+				"attribute": "DEF",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 3
+			}
+		]
+	},
+
+	{
+		"name": "Ranger",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Scoundrel",
+					"level": 4
+				}
+			]
+		},
+		"equipment": [ "Axe", "Bow", "Crossbow", "Light Armor" ],
+		"specialty": "Survival",
+		"movement": {
+			"move": 4,
+			"jump": 5,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.5,
+			"MP": 2.0,
+			"ATK": 4.0,
+			"DEF": 3.25,
+			"MND": 3.5,
+			"RES": 3.75,
+			"SPD": 1.25
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 5
+			},
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "EVA",
+				"value": 1
+			}
+		]
+	},
+
+	{
+		"name": "Templar",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Knight",
+					"level": 4
+				}
+			]
+		},
+		"equipment": [ "Scythe", "Sword", "Mace", "Heavy Armor", "Shield" ],
+		"specialty": "Holy Justice",
+		"movement": {
+			"move": 4,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 7.0,
+			"MP": 2.0,
+			"ATK": 4.5,
+			"DEF": 3.5,
+			"MND": 3.5,
+			"RES": 4.5,
+			"SPD": 0.88
+		},
+		"mastery": [
+			{
+				"attribute": "DEF",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 5
+			},
+			{
+				"attribute": "HOLY",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Peddler",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Ranger",
+					"level": 5
+				}
+			]
+		},
+		"equipment": [ "Dagger", "Axe", "Crossbow", "Light Armor", "Shield" ],
+		"specialty": "Peddle",
+		"movement": {
+			"move": 3,
+			"jump": 5,
+			"swim": false
+		},
+		"growth": {
+			"HP": 7.0,
+			"MP": 3.0,
+			"ATK": 3.75,
+			"DEF": 4.0,
+			"MND": 3.5,
+			"RES": 4.0,
+			"SPD": 1.13
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 5
+			},
+			{
+				"attribute": "MP",
+				"value": 5
+			},
+			{
+				"attribute": "SPD",
+				"value": 3
+			}
+		]
+	},
+
+	{
+		"name": "Reaver",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Templar",
+					"level": 5
+				},
+				{
+					"class": "Scoundrel",
+					"level": 4
+				}
+			]
+		},
+		"equipment": [ "Sword", "Axe", "Light Armor" ],
+		"specialty": "Brutality",
+		"movement": {
+			"move": 4,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 8.0,
+			"MP": 1.0,
+			"ATK": 5.5,
+			"DEF": 2.75,
+			"MND": 2.5,
+			"RES": 2.75,
+			"SPD": 0.83
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 6
+			},
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "CRIT",
+				"value": 2
+			}
+		]
+	},
+
+	{
+		"name": "Gunner",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Mercenary",
+					"level": 4
+				},
+				{
+					"class": "Knight",
+					"level": 4
+				},
+				{
+					"class": "Ranger",
+					"level": 4
+				}
+			]
+		},
+		"equipment": [ "Gun", "Light Armor" ],
+		"specialty": "Bullet Infusion",
+		"movement": {
+			"move": 3,
+			"jump": 5,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.5,
+			"MP": 1.0,
+			"ATK": 4.5,
+			"DEF": 4.25,
+			"MND": 3.0,
+			"RES": 3.5,
+			"SPD": 0.93
+		},
+		"mastery": [
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "DEF",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 2
+			}
+		]
+	},
+
+	{
+		"name": "Assassin",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Gunner",
+					"level": 4
+				}
+			]
+		},
+		"equipment": [ "Dagger", "Bow", "Robe", "Light Armor" ],
+		"specialty": "Lethality",
+		"movement": {
+			"move": 4,
+			"jump": 6,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.0,
+			"MP": 2.0,
+			"ATK": 4.25,
+			"DEF": 3.0,
+			"MND": 3.5,
+			"RES": 3.25,
+			"SPD": 1.47
+		},
+		"mastery": [
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "SPD",
+				"value": 6
+			},
+			{
+				"attribute": "CRIT",
+				"value": 2
+			}
+		]
+	},
+
+	{
+		"name": "Duelist",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Reaver",
+					"level": 3
+				},
+				{
+					"class": "Peddler",
+					"level": 3
+				}
+			]
+		},
+		"equipment": [ "Dagger", "Rapier", "Light Armor" ],
+		"specialty": "Flourish",
+		"movement": {
+			"move": 4,
+			"jump": 6,
+			"swim": true
+		},
+		"growth": {
+			"HP": 7.0,
+			"MP": 1.0,
+			"ATK": 5.0,
+			"DEF": 3.5,
+			"MND": 3.0,
+			"RES": 3.0,
+			"SPD": 1.05
+		},
+		"mastery": [
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "DEF",
+				"value": 5
+			},
+			{
+				"attribute": "WATER",
+				"value": 5
+			},
+			{
+				"attribute": "FIRE",
+				"value": 5
+			},
+			{
+				"attribute": "EARTH",
+				"value": 5
+			},
+			{
+				"attribute": "THUNDER",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Mender",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": []
+		},
+		"equipment": [ "Staff", "Robe", "Light Armor" ],
+		"specialty": "Holy Magic",
+		"movement": {
+			"move": 3,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 6.0,
+			"MP": 4.0,
+			"ATK": 3.25,
+			"DEF": 3.5,
+			"MND": 4.5,
+			"RES": 4.0,
+			"SPD": 1.0
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 5
+			},
+			{
+				"attribute": "MND",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 2
+			}
+		]
+	},
+
+	{
+		"name": "Wizard",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Mender",
+					"level": 2
+				}
+			]
+		},
+		"equipment": [ "Rod", "Robe", "Light Armor" ],
+		"specialty": "Elementalism",
+		"movement": {
+			"move": 3,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 5.5,
+			"MP": 4.5,
+			"ATK": 3.0,
+			"DEF": 3.0,
+			"MND": 5.0,
+			"RES": 5.0,
+			"SPD": 0.78
+		},
+		"mastery": [
+			{
+				"attribute": "MP",
+				"value": 5
+			},
+			{
+				"attribute": "MND",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Plague Doctor",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Mender",
+					"level": 4
+				}
+			]
+		},
+		"equipment": [ "Mace", "Rod", "Staff", "Robe", "Light Armor", "Heavy Armor", "Shield" ],
+		"specialty": "Treatment",
+		"movement": {
+			"move": 4,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 7.5,
+			"MP": 3.0,
+			"ATK": 3.75,
+			"DEF": 4.0,
+			"MND": 4.25,
+			"RES": 4.0,
+			"SPD": 0.9
+		},
+		"mastery": [
+			{
+				"attribute": "MP",
+				"value": 5
+			},
+			{
+				"attribute": "MND",
+				"value": 5
+			},
+			{
+				"attribute": "DEF",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Alchemystic",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Wizard",
+					"level": 4
+				}
+			]
+		},
+		"equipment": [ "Staff", "Crossbow", "Robe", "Light Armor" ],
+		"specialty": "Soul Magic",
+		"movement": {
+			"move": 3,
+			"jump": 4,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.0,
+			"MP": 3.5,
+			"ATK": 3.5,
+			"DEF": 3.25,
+			"MND": 4.25,
+			"RES": 4.5,
+			"SPD": 1.33
+		},
+		"mastery": [
+			{
+				"attribute": "MP",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 5
+			},
+			{
+				"attribute": "SPD",
+				"value": 3
+			}
+		]
+	},
+
+	{
+		"name": "Druid",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Mender",
+					"level": 3
+				},
+				{
+					"class": "Wizard",
+					"level": 5
+				},
+				{
+					"class": "Alchemystic",
+					"level": 3
+				}
+			]
+		},
+		"equipment": [ "Rapier", "Rod", "Staff", "Robe", "Light Armor", "Shield" ],
+		"specialty": "Duality",
+		"movement": {
+			"move": 3,
+			"jump": 4,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.0,
+			"MP": 3.0,
+			"ATK": 4.0,
+			"DEF": 3.5,
+			"MND": 4.5,
+			"RES": 4.0,
+			"SPD": 1.08
+		},
+		"mastery": [
+			{
+				"attribute": "MND",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 5
+			},
+			{
+				"attribute": "WATER",
+				"value": 5
+			},
+			{
+				"attribute": "FIRE",
+				"value": 5
+			},
+			{
+				"attribute": "EARTH",
+				"value": 5
+			},
+			{
+				"attribute": "THUNDER",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Sorcerer",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Druid",
+					"level": 5
+				}
+			]
+		},
+		"equipment": [ "Rod", "Robe" ],
+		"specialty": "Lay Waste",
+		"movement": {
+			"move": 3,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 5.0,
+			"MP": 5.5,
+			"ATK": 3.25,
+			"DEF": 3.5,
+			"MND": 5.5,
+			"RES": 4.25,
+			"SPD": 0.75
+		},
+		"mastery": [
+			{
+				"attribute": "MP",
+				"value": 10
+			},
+			{
+				"attribute": "DEF",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 3
+			}
+		]
+	},
+
+	{
+		"name": "Fellblade",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Knight",
+					"level": 3
+				},
+				{
+					"class": "Wizard",
+					"level": 3
+				}
+			]
+		},
+		"equipment": [ "Sword", "Dagger", "Rapier", "Robe", "Light Armor", "Shield" ],
+		"specialty": "Dark Blade",
+		"movement": {
+			"move": 4,
+			"jump": 5,
+			"swim": true
+		},
+		"growth": {
+			"HP": 7.0,
+			"MP": 2.5,
+			"ATK": 4.75,
+			"DEF": 3.5,
+			"MND": 4.5,
+			"RES": 3.5,
+			"SPD": 0.92
+		},
+		"mastery": [
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "MND",
+				"value": 5
+			},
+			{
+				"attribute": "CRIT",
+				"value": 2
+			}
+		]
+	},
+
+	{
+		"name": "Warmage",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Plague Doctor",
+					"level": 3
+				},
+				{
+					"class": "Fellblade",
+					"level": 4
+				}
+			]
+		},
+		"equipment": [ "Scythe", "Mace", "Rod", "Robe", "Light Armor" ],
+		"specialty": "Battle Magic",
+		"movement": {
+			"move": 4,
+			"jump": 4,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.0,
+			"MP": 3.0,
+			"ATK": 4.5,
+			"DEF": 3.5,
+			"MND": 4.75,
+			"RES": 3.2,
+			"SPD": 1.13
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 5
+			},
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "MND",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Gambler",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Scoundrel",
+					"level": 3
+				},
+				{
+					"class": "Mender",
+					"level": 3
+				}
+			]
+		},
+		"equipment": [ "Dagger", "Spear", "Light Armor", "Shield" ],
+		"specialty": "Lady Luck",
+		"movement": {
+			"move": 4,
+			"jump": 6,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.5,
+			"MP": 1.8,
+			"ATK": 4.5,
+			"DEF": 3.5,
+			"MND": 3.5,
+			"RES": 3.0,
+			"SPD": 1.2
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 5
+			},
+			{
+				"attribute": "EVA",
+				"value": 2
+			},
+			{
+				"attribute": "CRIT",
+				"value": 2
+			}
+		]
+	},
+
+	{
+		"name": "Gadgeteer",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "",
+			"classLevels": [
+				{
+					"class": "Scoundrel",
+					"level": 3
+				},
+				{
+					"class": "Wizard",
+					"level": 3
+				}
+			]
+		},
+		"equipment": [ "Maul", "Mace", "Light Armor", "Shield" ],
+		"specialty": "Gadgets",
+		"movement": {
+			"move": 3,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 7.0,
+			"MP": 2.5,
+			"ATK": 4.0,
+			"DEF": 4.0,
+			"MND": 4.0,
+			"RES": 4.0,
+			"SPD": 1.0
+		},
+		"mastery": [
+			{
+				"attribute": "ATK",
+				"value": 2
+			},
+			{
+				"attribute": "DEF",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Werewolf",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "Lunar Crest",
+			"classLevels": [
+				{
+					"class": "Mercenary",
+					"level": 4
+				}
+			]
+		},
+		"equipment": [ "Dagger", "Sword", "Light Armor" ],
+		"specialty": "Savagery",
+		"movement": {
+			"move": 5,
+			"jump": 6,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.5,
+			"MP": 1.5,
+			"ATK": 5.5,
+			"DEF": 2.75,
+			"MND": 3.0,
+			"RES": 3.5,
+			"SPD": 1.1
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 10
+			},
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "CRIT",
+				"value": 2
+			}
+		]
+	},
+
+	{
+		"name": "Vampire",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "Blood Crest",
+			"classLevels": [
+				{
+					"class": "Scoundrel",
+					"level": 6
+				},
+				{
+					"class": "Alchemystic",
+					"level": 3
+				}
+			]
+		},
+		"equipment": [ "Dagger", "Rapier", "Gun", "Bow", "Robe", "Light Armor" ],
+		"specialty": "Vampirism",
+		"movement": {
+			"move": 4,
+			"jump": 6,
+			"swim": true
+		},
+		"growth": {
+			"HP": 5.5,
+			"MP": 3.5,
+			"ATK": 4.25,
+			"DEF": 4.0,
+			"MND": 4.25,
+			"RES": 4.0,
+			"SPD": 1.33
+		},
+		"mastery": [
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "SPD",
+				"value": 3
+			},
+			{
+				"attribute": "DARK",
+				"value": 5
+			}
+		]
+	}
+
+]
+

@@ -1063,7 +1063,547 @@
 				"value": 5
 			}
 		]
+	},
+
+	{
+		"name": "Lich",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "Phylactery",
+			"classLevels": [
+				{
+					"class": "Sorcerer",
+					"level": 6
+				},
+				{
+					"class": "Plague Doctor",
+					"level": 4
+				}
+			]
+		},
+		"equipment": [ "Sycthe", "Rod", "Staff", "Robe" ],
+		"specialty": "Malevolence",
+		"movement": {
+			"move": 3,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 7.0,
+			"MP": 3.5,
+			"ATK": 3.75,
+			"DEF": 2.75,
+			"MND": 6.5,
+			"RES": 2.75,
+			"SPD": 0.67
+		},
+		"mastery": [
+			{
+				"attribute": "MND",
+				"value": 5
+			},
+			{
+				"attribute": "DARK",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Vessel",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "",
+			"badge": "Bone Crest",
+			"classLevels": [
+				{
+					"class": "Mender",
+					"level": 5
+				},
+				{
+					"class": "Wizard",
+					"level": 5
+				}
+			]
+		},
+		"equipment": [ "Sycthe", "Rapier", "Crossbow", "Light Armor", "Shield" ],
+		"specialty": "Channel Soul",
+		"movement": {
+			"move": 3,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 4.0,
+			"MP": 7.0,
+			"ATK": 4.25,
+			"DEF": 4.0,
+			"MND": 6.25,
+			"RES": 4.0,
+			"SPD": 0.83
+		},
+		"mastery": [
+			{
+				"attribute": "MP",
+				"value": 5
+			},
+			{
+				"attribute": "MND",
+				"value": 5
+			},
+			{
+				"attribute": "WATER",
+				"value": 5
+			},
+			{
+				"attribute": "FIRE",
+				"value": 5
+			},
+			{
+				"attribute": "EARTH",
+				"value": 5
+			},
+			{
+				"attribute": "THUNDER",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Princess",
+		"requirements": {
+			"type": "Human",
+			"gender": "Female",
+			"character": "",
+			"badge": "Princess Crest",
+			"classLevels": [
+				{
+					"class": "Mender",
+					"level": 7
+				}
+			]
+		},
+		"equipment": [ "Rapier", "Rod", "Staff", "Robe" ],
+		"specialty": "Channel Soul",
+		"movement": {
+			"move": 4,
+			"jump": 4,
+			"swim": true
+		},
+		"growth": {
+			"HP": 5.0,
+			"MP": 6.0,
+			"ATK": 3.0,
+			"DEF": 2.75,
+			"MND": 5.75,
+			"RES": 4.75,
+			"SPD": 1.03
+		},
+		"mastery": [
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "MND",
+				"value": 5
+			},
+			{
+				"attribute": "DEF",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 5
+			},
+			{
+				"attribute": "HOLY",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Lord",
+		"requirements": {
+			"type": "Human",
+			"gender": "Male",
+			"character": "",
+			"badge": "Lord Crest",
+			"classLevels": [
+				{
+					"class": "Templar",
+					"level": 6
+				}
+			]
+		},
+		"equipment": [ "Sword", "Mace", "Rapier", "Heavy Armor", "Shield" ],
+		"specialty": "Countenance",
+		"movement": {
+			"move": 4,
+			"jump": 4,
+			"swim": true
+		},
+		"growth": {
+			"HP": 7.0,
+			"MP": 2.0,
+			"ATK": 4.5,
+			"DEF": 4.25,
+			"MND": 4.25,
+			"RES": 3.5,
+			"SPD": 1.08
+		},
+		"mastery": [
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "MND",
+				"value": 5
+			},
+			{
+				"attribute": "DEF",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 5
+			},
+			{
+				"attribute": "HOLY",
+				"value": 5
+			}
+		]
+	},
+
+
+	{
+		"name": "Marked",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "Kyrie",
+			"badge": "",
+			"classLevels": []
+		},
+		"equipment": [ "Maul", "Sword", "Spear", "Rod", "Robe", "Light Armor", "Heavy Armor", "Shield" ],
+		"specialty": "Ancient Power",
+		"movement": {
+			"move": 4,
+			"jump": 5,
+			"swim": true
+		},
+		"growth": {
+			"HP": 7.0,
+			"MP": 4.0,
+			"ATK": 5.0,
+			"DEF": 3.25,
+			"MND": 4.5,
+			"RES": 3.25,
+			"SPD": 1.0
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 10
+			},
+			{
+				"attribute": "ATK",
+				"value": 10
+			},
+			{
+				"attribute": "MND",
+				"value": 10
+			},
+			{
+				"attribute": "HOLY",
+				"value": 5
+			},
+			{
+				"attribute": "DARK",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Spymaster",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "Reiner",
+			"badge": "",
+			"classLevels": []
+		},
+		"equipment": [ "Sword", "Dagger", "Staff", "Crossbow" ],
+		"specialty": "Many Masks",
+		"movement": {
+			"move": 4,
+			"jump": 6,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.5,
+			"MP": 3.0,
+			"ATK": 4.25,
+			"DEF": 3.5,
+			"MND": 4.25,
+			"RES": 3.5,
+			"SPD": 1.25
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 5
+			},
+			{
+				"attribute": "MP",
+				"value": 5
+			},
+			{
+				"attribute": "ATK",
+				"value": 5
+			},
+			{
+				"attribute": "MND",
+				"value": 5
+			},
+			{
+				"attribute": "DEF",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 5
+			},
+			{
+				"attribute": "SPD",
+				"value": 3
+			},
+			{
+				"attribute": "EVA",
+				"value": 1
+			},
+			{
+				"attribute": "CRIT",
+				"value": 2
+			},
+			{
+				"attribute": "WATER",
+				"value": 5
+			},
+			{
+				"attribute": "FIRE",
+				"value": 5
+			},
+			{
+				"attribute": "EARTH",
+				"value": 5
+			},
+			{
+				"attribute": "THUNDER",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Demon Knight",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "Anadine",
+			"badge": "",
+			"classLevels": []
+		},
+		"equipment": [ "Scythe", "Axe", "Heavy Armor" ],
+		"specialty": "Rage",
+		"movement": {
+			"move": 4,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 8.0,
+			"MP": 1.0,
+			"ATK": 6.0,
+			"DEF": 3.25,
+			"MND": 3.5,
+			"RES": 2.5,
+			"SPD": 0.67
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 10
+			},
+			{
+				"attribute": "ATK",
+				"value": 15
+			},
+			{
+				"attribute": "CRIT",
+				"value": 2
+			},
+			{
+				"attribute": "DARK",
+				"value": 10
+			}
+		]
+	},
+
+	{
+		"name": "Anatomist",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "Yates",
+			"badge": "",
+			"classLevels": []
+		},
+		"equipment": [ "Rod", "Staff", "Robe" ],
+		"specialty": "Anatomy",
+		"movement": {
+			"move": 3,
+			"jump": 4,
+			"swim": false
+		},
+		"growth": {
+			"HP": 5.5,
+			"MP": 4.5,
+			"ATK": 3.75,
+			"DEF": 3.5,
+			"MND": 5.0,
+			"RES": 4.0,
+			"SPD": 1.0
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 5
+			},
+			{
+				"attribute": "MP",
+				"value": 5
+			},
+			{
+				"attribute": "MND",
+				"value": 15
+			},
+			{
+				"attribute": "RES",
+				"value": 5
+			},
+			{
+				"attribute": "CRIT",
+				"value": 2
+			},
+			{
+				"attribute": "DARK",
+				"value": 5
+			}
+		]
+	},
+
+	{
+		"name": "Bounty Hunter",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "Katja",
+			"badge": "",
+			"classLevels": []
+		},
+		"equipment": [ "Dagger", "Spear", "Gun", "Light Armor", "Shield" ],
+		"specialty": "Hunting",
+		"movement": {
+			"move": 4,
+			"jump": 6,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.0,
+			"MP": 2.0,
+			"ATK": 4.25,
+			"DEF": 3.5,
+			"MND": 3.75,
+			"RES": 3.2,
+			"SPD": 1.37
+		},
+		"mastery": [
+			{
+				"attribute": "ATK",
+				"value": 10
+			},
+			{
+				"attribute": "SPD",
+				"value": 6
+			},
+			{
+				"attribute": "EVA",
+				"value": 2
+			},
+			{
+				"attribute": "CRIT",
+				"value": 2
+			}
+		]
+	},
+
+	{
+		"name": "The Exiled",
+		"requirements": {
+			"type": "Human",
+			"gender": "",
+			"character": "Kairu",
+			"badge": "",
+			"classLevels": []
+		},
+		"equipment": [ "Sword", "Robe", "Light Armor", "Heavy Armor", "Shield" ],
+		"specialty": "Averian Style",
+		"movement": {
+			"move": 4,
+			"jump": 5,
+			"swim": true
+		},
+		"growth": {
+			"HP": 6.5,
+			"MP": 6.0,
+			"ATK": 4.75,
+			"DEF": 3.25,
+			"MND": 4.5,
+			"RES": 3.25,
+			"SPD": 1.13
+		},
+		"mastery": [
+			{
+				"attribute": "HP",
+				"value": 5
+			},
+			{
+				"attribute": "ATK",
+				"value": 10
+			},
+			{
+				"attribute": "MND",
+				"value": 10
+			},
+			{
+				"attribute": "DEF",
+				"value": 5
+			},
+			{
+				"attribute": "RES",
+				"value": 5
+			}
+		]
 	}
+
 
 ]
 

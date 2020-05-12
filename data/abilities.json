@@ -45,6 +45,46 @@
         "type": "Passive",
         "class": "Templar",
         "tier": 3
+    },
+
+    {
+        "name": "Leech Life",
+        "description": "Character's Regular Attacks absorb some of the damage dealt.",
+        "type": "Passive",
+        "class": "Duelist",
+        "tier": 3
+    },
+
+    {
+        "name": "Blood Mark",
+        "description": "Character gains stacking 0.2x damage bonus from each time they attack the same target they did last turn. Bonus reset upon changing target.",
+        "type": "Passive",
+        "class": "Duelist",
+        "tier": 3
+    },
+
+    {
+        "name": "Into the Fray",
+        "description": "Damage dealt increases by 0.125x to 0.85x for every adjacent enemy. More adjacent enemies means a higher increase.",
+        "type": "Passive",
+        "class": "Reaver",
+        "tier": 3
+    },
+
+    {
+        "name": "Bloodlust",
+        "description": "Damage dealt increases the lower the character's current HP is.",
+        "type": "Passive",
+        "class": "Reaver",
+        "tier": 3
+    },
+
+    {
+        "name": "Cautious Step",
+        "description": "Character is immune to traps as well as to {images/icons/Root.png}Root, {images/icons/Slow.png}Slow.",
+        "type": "Passive",
+        "class": "Assassin",
+        "tier": 3
     }
 
 ]

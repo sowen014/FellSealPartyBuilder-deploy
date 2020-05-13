@@ -81,7 +81,7 @@
 
     {
         "name": "Cautious Step",
-        "description": "Character is immune to traps as well as to {images/icons/Root.png}Root, {images/icons/Slow.png}Slow.",
+        "description": "Character is immune to traps as well as to <img src='/images/icons/icon-Passive.png' />Root, {images/icons/Slow.png}Slow.",
         "type": "Passive",
         "class": "Assassin",
         "tier": 3

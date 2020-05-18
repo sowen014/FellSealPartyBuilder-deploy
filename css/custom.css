@@ -15,9 +15,10 @@
     --col-green-ui-4: #020b05;
     --col-gray: #808080;
     --col-black: #02070b;
+    overscroll-
 }
 
-/* FOOTER */
+/* MODAL */
 
 .ui-modal {
     display: flex;
@@ -30,7 +31,48 @@
     letter-spacing: 0.08em;
     padding: 1.5rem;
     box-shadow: 0 2px 2px rgba(0,0,0,.25);
+    width: 100%;
+    max-width: 480px;
+    max-height: 100vh;
 }
+
+.ui-ability-card {
+    border-radius: 20px;
+    background: var(--col-blue-ui-3);
+}
+
+.ui-ability-card-header {
+    border-radius: 20px 20px 0px 0px;
+    background-image: linear-gradient(    to right,
+                                        var(--col-blue-ui-3-trans) 0%,
+                                        var(--col-blue-ui-4) 30%,
+                                        var(--col-blue-ui-4) 70%,
+                                        var(--col-blue-ui-3-trans) 100%);
+    text-align: center;
+    padding: 0.5rem;
+
+}
+
+.ui-ability-card-body {
+    padding: 1rem;
+}
+
+.ui-ability-filter-input {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: inherit;
+    color: white;
+    background-color: var(--col-blue-ui-3);
+    background-clip: padding-box;
+    border: 1px solid var(--col-blue-ui-2);
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
 
 /* FOOTER */
 
@@ -110,6 +152,36 @@
 }
 
 /* HEADER */
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2
+}
+
+.h1, h1 {
+    font-size: 2rem
+}
+
+.h2, h2 {
+    font-size: 1.6rem
+}
+
+.h3, h3 {
+    font-size: 1.4rem
+}
+
+.h4, h4 {
+    font-size: 1.2rem
+}
+
+.h5, h5 {
+    font-size: 1.1rem
+}
+
+.h6, h6 {
+    font-size: 1rem
+}
 
 .ui-header-banner-blue {
     background-image: linear-gradient(    to right,

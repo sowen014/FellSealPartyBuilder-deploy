@@ -13,9 +13,10 @@
     --col-green-ui-2: #27da72;
     --col-green-ui-3: #0b402e;
     --col-green-ui-4: #020b05;
-    --col-gray: #808080;
-    --col-black: #02070b;
-    overscroll-
+    --col-gray-ui-1: #cbcbcb;
+    --col-gray-ui-2: #808080;
+    --col-gray-ui-3: #464646;
+    --col-gray-ui-4: #02070b;
 }
 
 /* MODAL */
@@ -29,7 +30,7 @@
     color: white;
     font-family: Georgia, serif;
     letter-spacing: 0.08em;
-    padding: 1.5rem;
+    padding: 0.5rem;
     box-shadow: 0 2px 2px rgba(0,0,0,.25);
     width: 100%;
     max-width: 480px;
@@ -111,18 +112,18 @@
 .ui-text-highlight-2 {
     color: var(--col-yellow-2) !important;
     text-shadow:
-        -1px -1px 1px var(--col-black),
-        -1px 1px 1px var(--col-black),
-        1px -1px 1px var(--col-black),
-        1px 1px 1px var(--col-black)
+        -1px -1px 1px black,
+        -1px 1px 1px black,
+        1px -1px 1px black,
+        1px 1px 1px black
 }
 
 .ui-text-shadow {
     text-shadow:
-        -1px -1px 1px var(--col-black),
-        -1px 1px 1px var(--col-black),
-        1px -1px 1px var(--col-black),
-        1px 1px 1px var(--col-black)
+        -1px -1px 1px black,
+        -1px 1px 1px black,
+        1px -1px 1px black,
+        1px 1px 1px black
 }
 
 .ui-text-bold {
@@ -149,6 +150,14 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.ui-text-sm {
+    font-size: 0.75rem !important;
+}
+
+.ui-gray-1 {
+    color: var(--col-gray-ui-1) !important;
 }
 
 /* HEADER */
@@ -197,7 +206,7 @@
 
 .ui-scrollbox-green {
     border: 5px double var(--col-green-ui-2);
-    background: var(--col-black);
+    background: var(--col-green-ui-4);
     border-radius: 0px 0px 0px 0px;
     overflow-y: scroll;
 }
@@ -240,7 +249,7 @@ td.ui-td {
     }
 
     td.ui-td.ui-td-disabled {
-        color: var(--col-gray);
+        color: var(--col-gray-ui-2);
         background: var(--col-blue-ui-4);
     }
 
@@ -254,7 +263,7 @@ button.ui-btn-blue {
     background-image: linear-gradient(var(--col-blue-ui-2), var(--col-blue-ui-3));
     box-shadow: 0 3px 6px 0 rgba(0,0,0,0.5);
     border-radius: 5px;
-    padding: 10px 20px 10px 20px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
     button.ui-btn-blue:hover {
@@ -272,16 +281,16 @@ button.ui-btn-blue {
         background-image: linear-gradient(var(--col-blue-ui-4), var(--col-blue-ui-3));
         color: var(--col-yellow-2) !important;
         text-shadow:
-            -1px -1px 1px var(--col-black),
-            -1px 1px 1px var(--col-black),
-            1px -1px 1px var(--col-black),
-            1px 1px 1px var(--col-black)
+            -1px -1px 1px black,
+            -1px 1px 1px black,
+            1px -1px 1px black,
+            1px 1px 1px black
     }
 
     button.ui-btn-blue:disabled {
         box-shadow: none !important;
         background: var(--col-blue-ui-4) !important;
-        color: var(--col-gray) !important;
+        color: var(--col-gray-ui-2) !important;
         text-shadow: none !important;
     }
 
@@ -293,7 +302,7 @@ button.ui-btn-green {
     background-image: linear-gradient(var(--col-green-ui-2), var(--col-green-ui-3));
     box-shadow: 0 3px 6px 0 rgba(0,0,0,0.5);
     border-radius: 5px;
-    padding: 10px 20px 10px 20px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
     button.ui-btn-green:hover {
@@ -311,15 +320,52 @@ button.ui-btn-green {
         background-image: linear-gradient(var(--col-green-ui-4), var(--col-green-ui-3));
         color: var(--col-yellow-2) !important;
         text-shadow:
-            -1px -1px 1px var(--col-black),
-            -1px 1px 1px var(--col-black),
-            1px -1px 1px var(--col-black),
-            1px 1px 1px var(--col-black)
+            -1px -1px 1px black,
+            -1px 1px 1px black,
+            1px -1px 1px black,
+            1px 1px 1px black
     }
 
     button.ui-btn-green:disabled {
         box-shadow: none !important;
         background: var(--col-green-ui-4) !important;
-        color: var(--col-gray) !important;
+        color: var(--col-gray-ui-2) !important;
         text-shadow: none !important;
     }
+
+button.ui-btn-gray {
+    font-family: Georgia, serif;
+    letter-spacing: 0.08em;
+    color: white;
+    border: 3px solid var(--col-gray-ui-3);
+    background-image: linear-gradient(var(--col-gray-ui-2), var(--col-gray-ui-3));
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+    button.ui-btn-gray:hover {
+        box-shadow: inset 0 0 12px 0 var(--col-gray-ui-1);
+        color: var(--col-yellow-1) !important;
+        text-shadow: -1px -1px 1px var(--col-yellow-3), -1px 1px 1px var(--col-yellow-3), 1px -1px 1px var(--col-yellow-3), 1px 1px 1px var(--col-yellow-3)
+    }
+
+    button.ui-btn-gray:active {
+        box-shadow: inset 0 0 12px 0 var(--col-gray-ui-2);
+        background-image: linear-gradient(var(--col-gray-ui-4), var(--col-gray-ui-3));
+        color: var(--col-yellow-2) !important;
+        text-shadow: -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 1px 1px black
+    }
+
+    button.ui-btn-gray:disabled {
+        box-shadow: none !important;
+        background: var(--col-gray-ui-4) !important;
+        color: var(--col-gray-ui-2) !important;
+        text-shadow: none !important;
+    }
+
+button.ui-btn-small {
+    font-size: 0.75rem;
+    box-shadow: none !important;
+    padding: 0 0.3rem 0 0.3rem !important;
+}

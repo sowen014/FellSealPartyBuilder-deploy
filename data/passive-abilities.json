@@ -2,7 +2,6 @@
     {
         "name": "Health Expert",
         "description": "Increases the character's base maximum HP by 25%.",
-        "type": "Passive",
         "class": "Mercenary",
         "tier": 3
     },
@@ -10,7 +9,6 @@
     {
         "name": "Sturdy Grip",
         "description": "Allows the character to hold a melee two-handed weapon in one hand as well as wield a Shield regardless of current Class.",
-        "type": "Passive",
         "class": "Mercenary",
         "tier": 3
     },
@@ -18,7 +16,6 @@
     {
         "name": "No Flank",
         "description": "All attacks targeting this character are considered to be from the front.",
-        "type": "Passive",
         "class": "Knight",
         "tier": 3
     },
@@ -26,7 +23,6 @@
     {
         "name": "Life Font",
         "description": "Character recovers 4 + Level/4 HP with each step taken.",
-        "type": "Passive",
         "class": "Knight",
         "tier": 3
     },
@@ -34,7 +30,6 @@
     {
         "name": "Resilience",
         "description": "Any debuffs applied to the character will last 1 less turn.",
-        "type": "Passive",
         "class": "Templar",
         "tier": 3
     },
@@ -42,7 +37,6 @@
     {
         "name": "Defense Expert",
         "description": "Increases the character's base DEF value by 32 + 1.5*Level.",
-        "type": "Passive",
         "class": "Templar",
         "tier": 3
     },
@@ -50,7 +44,6 @@
     {
         "name": "Leech Life",
         "description": "Character's Regular Attacks absorb some of the damage dealt.",
-        "type": "Passive",
         "class": "Duelist",
         "tier": 3
     },
@@ -58,7 +51,6 @@
     {
         "name": "Blood Mark",
         "description": "Character gains stacking 0.2x damage bonus from each time they attack the same target they did last turn. Bonus reset upon changing target.",
-        "type": "Passive",
         "class": "Duelist",
         "tier": 3
     },
@@ -66,7 +58,6 @@
     {
         "name": "Into the Fray",
         "description": "Damage dealt increases by 0.125x to 0.85x for every adjacent enemy. More adjacent enemies means a higher increase.",
-        "type": "Passive",
         "class": "Reaver",
         "tier": 3
     },
@@ -74,7 +65,6 @@
     {
         "name": "Bloodlust",
         "description": "Damage dealt increases the lower the character's current HP is.",
-        "type": "Passive",
         "class": "Reaver",
         "tier": 3
     },
@@ -82,7 +72,6 @@
     {
         "name": "Cautious Step",
         "description": "Character is immune to traps as well as to {icon-Root.png}Root, {icon-Slow.png}Slow.",
-        "type": "Passive",
         "class": "Assassin",
         "tier": 3
     },
@@ -90,7 +79,6 @@
     {
         "name": "Dual Wield",
         "description": "Character can equip two weapons or two shields at the same time. When using Skills, the attack granted by the 2nd weapon will not apply.",
-        "type": "Passive",
         "class": "Assassin",
         "tier": 3
     },
@@ -98,7 +86,6 @@
     {
         "name": "Know Weakness",
         "description": "Increases the character's chances of landing a Critical Hit by 25%.",
-        "type": "Passive",
         "class": "Ranger",
         "tier": 3
     },
@@ -106,7 +93,6 @@
     {
         "name": "Evasion Up",
         "description": "Increases the character's EVA value by 13%.",
-        "type": "Passive",
         "class": "Ranger",
         "tier": 3
     },
@@ -114,7 +100,6 @@
     {
         "name": "Attack Expert",
         "description": "Increases the character's ATK value by 24 + 1*Level.",
-        "type": "Passive",
         "class": "Scoundrel",
         "tier": 3
     },
@@ -122,7 +107,6 @@
     {
         "name": "Exploit Weakness",
         "description": "Increases Critical Hit damage by 50%.",
-        "type": "Passive",
         "class": "Scoundrel",
         "tier": 3
     },
@@ -130,7 +114,6 @@
     {
         "name": "Concentration",
         "description": "Increases the character's accuracy by 20% when taking any offensive action (does not apply to Steal Abilities).",
-        "type": "Passive",
         "class": "Gunner",
         "tier": 3
     },
@@ -138,7 +121,6 @@
     {
         "name": "Height Advantage",
         "description": "Increases damage done by 0.04x for each height value the character has over the target (max .4x damage).",
-        "type": "Passive",
         "class": "Gunner",
         "tier": 3
     },
@@ -146,7 +128,6 @@
     {
         "name": "Item Potency",
         "description": "When using an item, it will double the normal potency.",
-        "type": "Passive",
         "class": "Peddler",
         "tier": 3
     },
@@ -154,7 +135,6 @@
     {
         "name": "Quick Fingers",
         "description": "Situational commands (such as Open, Gather, Climb, Activate, etc.) do not cost an action to use.",
-        "type": "Passive",
         "class": "Peddler",
         "tier": 3
     },
@@ -162,7 +142,6 @@
     {
         "name": "Blessed One",
         "description": "Every time the character uses a single target healing Ability on a target other than themselves, they are healed for 0.5x of the amount.",
-        "type": "Passive",
         "class": "Mender",
         "tier": 3
     },
@@ -170,7 +149,6 @@
     {
         "name": "Mana Font",
         "description": "Character recovers 1 MP with each step taken.",
-        "type": "Passive",
         "class": "Mender",
         "tier": 3
     },
@@ -178,7 +156,6 @@
     {
         "name": "Side Effects",
         "description": "Using an Ability or Regular Attack to successfully apply a buff also restores .3x HP to the target, and a debuff also applies .25x HP damage to the target.",
-        "type": "Passive",
         "class": "Alchemystic",
         "tier": 3
     },
@@ -186,7 +163,6 @@
     {
         "name": "Resistance Expert",
         "description": "Increases the character's base RES value by 24 + 1.5*Level.",
-        "type": "Passive",
         "class": "Alchemystic",
         "tier": 3
     },
@@ -194,7 +170,6 @@
     {
         "name": "Eruptor",
         "description": "Any turn the character does not deal damage, they build a 0.18x bonus to their damage (up to 0.72x). The bonus is used up upon dealing damage.",
-        "type": "Passive",
         "class": "Sorcerer",
         "tier": 3
     },
@@ -202,7 +177,6 @@
     {
         "name": "Economy",
         "description": "All Abilities with MP cost have that cost reduced by 1/3.",
-        "type": "Passive",
         "class": "Sorcerer",
         "tier": 3
     },
@@ -210,7 +184,6 @@
     {
         "name": "Fortitude",
         "description": "Character is immune to Injuries as well as {icon-Poison.png}Poison, {icon-Bleed.png}Bleed, and {icon-Weaken.png}Weaken.",
-        "type": "Passive",
         "class": "Plague Doctor",
         "tier": 3
     },
@@ -218,7 +191,6 @@
     {
         "name": "Permanence",
         "description": "When the character successfully applies a buff or debuff to the target, it will last 1 more turn than normal.",
-        "type": "Passive",
         "class": "Plague Doctor",
         "tier": 3
     },
@@ -226,7 +198,6 @@
     {
         "name": "Smart Casting",
         "description": "Offensive multi-target Abilities will not include allies as possible targets and helpful multi-target Abilities will not include enemies as possible targets.",
-        "type": "Passive",
         "class": "Wizard",
         "tier": 3
     },
@@ -234,7 +205,6 @@
     {
         "name": "Boon",
         "description": "Upon felling an enemy, the character will be guaranteed Critical Hit on their next action. Boon will wear off at the end of the next turn even if it wasn't used.",
-        "type": "Passive",
         "class": "Wizard",
         "tier": 3
     },
@@ -242,7 +212,6 @@
     {
         "name": "Mind Expert",
         "description": "Increases the character's base MND value by 14 + Level*1.",
-        "type": "Passive",
         "class": "Druid",
         "tier": 3
     },
@@ -250,7 +219,6 @@
     {
         "name": "Double Cast",
         "description": "Allows the character to cast two Spells during their turn, but at 75% power each.",
-        "type": "Passive",
         "class": "Druid",
         "tier": 3
     },
@@ -258,7 +226,6 @@
     {
         "name": "Versatile",
         "description": "Allows the character's Skills and Spells to inflict Critical Hits, and when the character lands a Critical Hit, they regain a portion of their maximum MP.",
-        "type": "Passive",
         "class": "Fellblade",
         "tier": 3
     },
@@ -266,7 +233,6 @@
     {
         "name": "Malice",
         "description": "Increases the accuracy of inflicting debuff by 10%.",
-        "type": "Passive",
         "class": "Fellblade",
         "tier": 3
     },
@@ -274,7 +240,6 @@
     {
         "name": "Leech Mana",
         "description": "Character's Regular Attack converts some of the damage dealt into MP.",
-        "type": "Passive",
         "class": "Warmage",
         "tier": 3
     },
@@ -282,7 +247,6 @@
     {
         "name": "Elemental Mastery",
         "description": "The character ignores part of the target's resistance when dealing damage of the Fire, Water, Earth, or Thunder type.",
-        "type": "Passive",
         "class": "Warmage",
         "tier": 3
     },
@@ -290,7 +254,6 @@
     {
         "name": "Initiative",
         "description": "Character gains a free turn at the very start of combat.",
-        "type": "Passive",
         "class": "Gambler",
         "tier": 3
     },
@@ -298,7 +261,6 @@
     {
         "name": "Lucky",
         "description": "Character has that extra bit of luck that'll help them succeed in various things during combat.",
-        "type": "Passive",
         "class": "Gambler",
         "tier": 3
     },
@@ -306,7 +268,6 @@
     {
         "name": "Perfect Focus",
         "description": "Character deals .32x increased damage/healing with full HP.",
-        "type": "Passive",
         "class": "Gadgeteer",
         "tier": 3
     },
@@ -314,7 +275,6 @@
     {
         "name": "Mana Expert",
         "description": "Character starts combat with 15 MP instead of 0.",
-        "type": "Passive",
         "class": "Gadgeteer",
         "tier": 3
     },
@@ -322,7 +282,6 @@
     {
         "name": "Know Weakness II",
         "description": "Increases the character's chance of landing a Critical Hit by 25%. (Stacks with Know Weakness).",
-        "type": "Passive",
         "class": "Werewolf",
         "tier": 3
     },
@@ -330,7 +289,6 @@
     {
         "name": "Know Weakness II",
         "description": "Increases the character's chance of landing a Critical Hit by 25%. (Stacks with Know Weakness).",
-        "type": "Passive",
         "class": "Bounty Hunter",
         "tier": 3
     },
@@ -338,7 +296,6 @@
     {
         "name": "Focused Rage",
         "description": "Regular Attacks use all current MP to increase damage dealt by the attack (2.5% bonus per 1 MP).",
-        "type": "Passive",
         "class": "Werewolf",
         "tier": 3
     },
@@ -346,7 +303,6 @@
     {
         "name": "Focused Rage",
         "description": "Regular Attacks use all current MP to increase damage dealt by the attack (2.5% bonus per 1 MP).",
-        "type": "Passive",
         "class": "Demon Knight",
         "tier": 3
     },
@@ -354,7 +310,6 @@
     {
         "name": "Execute",
         "description": "Damage from offensive Abilities is increased by .45x when the target's HP is below half.",
-        "type": "Passive",
         "class": "Vampire",
         "tier": 3
     },
@@ -362,7 +317,6 @@
     {
         "name": "Execute",
         "description": "Damage from offensive Abilities is increased by .45x when the target's HP is below half.",
-        "type": "Passive",
         "class": "Marked",
         "tier": 3
     },
@@ -370,7 +324,6 @@
     {
         "name": "Bat Form",
         "description": "Character transforms into a swarm of bats when moving.",
-        "type": "Passive",
         "class": "Vampire",
         "tier": 3
     },
@@ -378,7 +331,6 @@
     {
         "name": "Chilling Touch",
         "description": "Character's offensive actions have a chance to inflict {icon-Slow.png}Slow on the target.",
-        "type": "Passive",
         "class": "Lich",
         "tier": 3
     },
@@ -386,7 +338,6 @@
     {
         "name": "Chilling Touch",
         "description": "Character's offensive actions have a chance to inflict {icon-Slow.png}Slow on the target.",
-        "type": "Passive",
         "class": "The Exiled",
         "tier": 3
     },
@@ -394,7 +345,6 @@
     {
         "name": "Blood Magic",
         "description": "Character uses HP instead of MP when using Abilities. (2% of maximum HP is used for each point of MP)",
-        "type": "Passive",
         "class": "Lich",
         "tier": 3
     },
@@ -402,7 +352,6 @@
     {
         "name": "Hallowed Mind",
         "description": "Character gains a bonus to damage the next turn after using a Regular Attack (.35x for a ranged attack, .45x for a melee attack).",
-        "type": "Passive",
         "class": "Vessel",
         "tier": 3
     },
@@ -410,7 +359,6 @@
     {
         "name": "Hallowed Body",
         "description": "Increases ATK by 20% of MND and MND by 20% of ATK.",
-        "type": "Passive",
         "class": "Vessel",
         "tier": 3
     },
@@ -418,7 +366,6 @@
     {
         "name": "Hallowed Body",
         "description": "Increases ATK by 20% of MND and MND by 20% of ATK.",
-        "type": "Passive",
         "class": "The Exiled",
         "tier": 3
     },
@@ -426,7 +373,6 @@
     {
         "name": "Equip All",
         "description": "Character is proficient will all weapons and armor and can equip all of them.",
-        "type": "Passive",
         "class": "Princess",
         "tier": 3
     },
@@ -434,7 +380,6 @@
     {
         "name": "Equip All",
         "description": "Character is proficient will all weapons and armor and can equip all of them.",
-        "type": "Passive",
         "class": "Lord",
         "tier": 3
     },
@@ -442,7 +387,6 @@
     {
         "name": "Equip All",
         "description": "Character is proficient will all weapons and armor and can equip all of them.",
-        "type": "Passive",
         "class": "Spymaster",
         "tier": 3
     },
@@ -450,7 +394,6 @@
     {
         "name": "Double Cast II",
         "description": "Allows the character to cast two Spells during their turn.",
-        "type": "Passive",
         "class": "Princess",
         "tier": 3
     },
@@ -458,7 +401,6 @@
     {
         "name": "Cleave",
         "description": "Character gets another turn after felling an enemy (once per natural turn). MP gained on the extra turn is 0. Does not trigger if the target has {icon-Rebirth.png}Rebirth.",
-        "type": "Passive",
         "class": "Lord",
         "tier": 3
     },
@@ -466,7 +408,6 @@
     {
         "name": "Cleave",
         "description": "Character gets another turn after felling an enemy (once per natural turn). MP gained on the extra turn is 0. Does not trigger if the target has {icon-Rebirth.png}Rebirth.",
-        "type": "Passive",
         "class": "Demon Knight",
         "tier": 3
     },
@@ -474,7 +415,6 @@
     {
         "name": "Avenger",
         "description": "Character gains .2x bonus damage and .125x damage reduction for each fallen ally (up to 3 stacks).",
-        "type": "Passive",
         "class": "Marked",
         "tier": 3
     },
@@ -482,14 +422,12 @@
     {
         "name": "Penumbral Mastery",
         "description": "The character ignores part of the target's resistance when dealing damage of the Dark or Holy type.",
-        "type": "Passive",
         "character": "Kyrie"
     },
 
     {
         "name": "Shadowstep",
         "description": "Character instantly crosses the distance between 2 points by stepping into the shadows.",
-        "type": "Passive",
         "class": "Spymaster",
         "tier": 3
     },
@@ -497,7 +435,6 @@
     {
         "name": "Pain Points",
         "description": "Damage from offensive Abilities is increased by .45x when the target's HP is below half.",
-        "type": "Passive",
         "class": "Anatomist",
         "tier": 3
     },
@@ -505,7 +442,6 @@
     {
         "name": "Legendary Healer",
         "description": "Healing is increased by .45x.",
-        "type": "Passive",
         "class": "Anatomist",
         "tier": 3
     },
@@ -513,7 +449,6 @@
     {
         "name": "Impetus",
         "description": "SPD increases by .05x each turn, up to .3x.",
-        "type": "Passive",
         "class": "Bounty Hunter",
         "tier": 3
     },
@@ -521,7 +456,6 @@
     {
         "name": "Stampede",
         "description": "Damage increases by .1x for each step moved by the character this turn.",
-        "type": "Passive",
         "character": "Kairu"
     }
 

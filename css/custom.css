@@ -37,6 +37,20 @@
     max-height: 100vh;
 }
 
+.ui-relative-container {
+    overflow: visible;
+    position: relative;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.ui-absolute-top-right {
+    position: absolute;
+    float: right;
+    top: 0px;
+    right: 0px;
+}
+
 .ui-ability-card {
     border-radius: 20px;
     background: var(--col-blue-ui-3);
@@ -154,6 +168,14 @@
 
 .ui-text-sm {
     font-size: 0.75rem !important;
+}
+
+.ui-text-md {
+    font-size: 1rem !important;
+}
+
+.ui-text-lg {
+    font-size: 1.5rem !important;
 }
 
 .ui-gray-1 {
@@ -368,4 +390,81 @@ button.ui-btn-small {
     font-size: 0.75rem;
     box-shadow: none !important;
     padding: 0 0.3rem 0 0.3rem !important;
+}
+
+button.ui-text-btn {
+    color: var(--col-gray-ui-2);
+    background: none;
+    border: none;
+    margin: 0px;
+    padding: 0.5rem;
+    width: auto;
+    height: auto;
+    line-height: 1rem;
+}
+
+    button.ui-text-btn:hover {
+        color: var(--col-yellow-1) !important;
+        text-shadow:
+            -1px -1px 1px var(--col-yellow-3),
+            -1px 1px 1px var(--col-yellow-3),
+            1px -1px 1px var(--col-yellow-3),
+            1px 1px 1px var(--col-yellow-3)
+    }
+
+    button.ui-text-btn:active {        
+        color: var(--col-yellow-2) !important;
+        text-shadow:
+            -1px -1px 1px black,
+            -1px 1px 1px black,
+            1px -1px 1px black,
+            1px 1px 1px black
+    }
+
+    button.ui-text-btn:disabled {
+        color: var(--col-gray-ui-3) !important;
+    }
+
+button.ui-btn-select,
+button.ui-btn-select-left,
+button.ui-btn-select-right {
+    font-family: Georgia, serif;
+    letter-spacing: 0.08em;
+    color: black;
+    border: 1px solid var(--col-gray-ui-2);
+    background: var(--col-gray-ui-1);
+    border-radius: 5px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: start;
+}
+
+    button.ui-btn-select:hover,
+    button.ui-btn-select-left:hover,
+    button.ui-btn-select-right:hover {
+        color: var(--col-yellow-2) !important;
+    }
+
+    button.ui-btn-select:active,
+    button.ui-btn-select-left:active,
+    button.ui-btn-select-right:active {
+        color: var(--col-yellow-2) !important;
+        background: var(--col-gray-ui-3) !important;
+    }
+
+    button.ui-btn-select:disabled,
+    button.ui-btn-select-left:disabled,
+    button.ui-btn-select-right:disabled {
+        color: var(--col-gray-ui-2) !important;
+        background: var(--col-gray-ui-4) !important;
+    }
+
+button.ui-btn-select-left {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+button.ui-btn-select-right {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-left: none !important;
 }

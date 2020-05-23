@@ -3,7 +3,7 @@
         "name": "Counterattack",
         "description": "Counters with a Regular Attack any offensive action taken against the character by an adjacent unit.",
         "class": "Mercenary",
-        "tier": 3
+        "tier": 4
     },
 
     {
@@ -17,133 +17,133 @@
         "name": "Evade Attack",
         "description": "Character always evades any Regular Attack.",
         "class": "Templar",
-        "tier": 3
+        "tier": 4
     },
 
     {
         "name": "Evade Skill",
         "description": "Character always evades any Skill.",
         "class": "Duelist",
-        "tier": 3
+        "tier": 0
     },
 
     {
         "name": "Critical: Rebirth",
         "description": "Grants {icon-Rebirth.png}Rebirth to the character when HP is Critical after taking damage.",
         "class": "Reaver",
-        "tier": 3
+        "tier": 6
     },
 
     {
         "name": "Critical: Mirage",
         "description": "Grants {icon-Mirage.png}Mirage to the character when HP is Critical after taking damage.",
         "class": "Assassin",
-        "tier": 3
+        "tier": 5
     },
 
     {
         "name": "Evade Attack",
         "description": "Character always evades any Regular Attack.",
         "class": "Templar",
-        "tier": 3
+        "tier": 4
     },
 
     {
         "name": "Countershot",
         "description": "Counters with a Regular Attack any ranged Regular Attack or Skill taken against the character.",
         "class": "Ranger",
-        "tier": 3
+        "tier": 6
     },
 
     {
         "name": "Steal",
         "description": "Counters any offensive action taken on the character by an adjacent unit by attempting to steal a Component (enemies using this counter will steal an item instead).",
         "class": "Scoundrel",
-        "tier": 3
+        "tier": 5
     },
 
     {
         "name": "Teleport Other",
         "description": "Counters any offensive action taken on the character by an adjacent unit by teleporting the offender to a random location on dry land on the map.",
         "class": "Gunner",
-        "tier": 3
+        "tier": 6
     },
 
     {
         "name": "Critical: Quicken",
         "description": "Grants the character an immediate turn when HP is Critical after taking damage.",
         "class": "Peddler",
-        "tier": 3
+        "tier": 4
     },
 
     {
         "name": "Renew",
         "description": "Grants {icon-Renew.png}Renew to the character after being targeted by any damaging offensive action.",
         "class": "Mender",
-        "tier": 3
+        "tier": 4
     },
 
     {
         "name": "Mystic Shield",
         "description": "As long as the character has any MP when taking damage, the whole damage is negated. Damage taken will lower current MP.",
         "class": "Alchemystic",
-        "tier": 3
+        "tier": 5
     },
 
     {
         "name": "Root",
         "description": "Counters any offensive action taken on the character by afflicting the offender with {icon-Root.png}Root.",
         "class": "Sorcerer",
-        "tier": 3
+        "tier": 4
     },
 
     {
         "name": "Barrier",
         "description": "Grants {icon-Barrier.png}Barrier to the character after being targeted by any damaging offensive action.",
         "class": "Plague Doctor",
-        "tier": 3
+        "tier": 5
     },
 
     {
         "name": "Magic",
         "description": "Counters any damaging offensive Spell cast on the character by casting a non-elemental version of that spell back at the attacker.",
         "class": "Wizard",
-        "tier": 3
+        "tier": 4
     },
 
     {
         "name": "Adaptive Affinity",
         "description": "When the character is dealt elemental damage, they gain a buff that increases their own damage output by .35x with that Element.",
         "class": "Druid",
-        "tier": 3
+        "tier": 4
     },
 
     {
         "name": "Evade Magic",
         "description": "Character always evades any Spells.",
         "class": "Fellblade",
-        "tier": 3
+        "tier": 4
     },
 
     {
         "name": "Haste",
         "description": "Grants {icon-Haste.png}Haste to the character after being targeted by any damaging offensive action.",
         "class": "Warmage",
-        "tier": 3
+        "tier": 5
     },
 
     {
         "name": "Fleet of Foot",
         "description": "Grants {icon-FleetofFoot.png}Fleet of Foot to the character and removes {icon-Root.png}Root after being targeted by any damaging offensive action.",
         "class": "Gambler",
-        "tier": 3
+        "tier": 2
     },
 
     {
         "name": "Absorb Mana",
         "description": "When character is targeted by any offensive Ability that has an MP cost, they gain the same amount of MP that was used. Only triggers if the offensive Ability would do damage to the target.",
         "class": "Gadgeteer",
-        "tier": 3
+        "tier": 2
     },
 
     {
@@ -157,7 +157,7 @@
         "name": "Cripple",
         "description": "Counters any offensive action taken on the character by afflicting the offender with {icon-Cripple.png}Cripple.",
         "class": "Anatomist",
-        "tier": 3
+        "tier": 5
     },
 
     {
@@ -171,21 +171,21 @@
         "name": "Hallowed Soul",
         "description": "When the character is dealt elemental damage, they gain a buff that increases their defense against that Element.",
         "class": "Vessel",
-        "tier": 3
+        "tier": 0
     },
 
     {
         "name": "Total Shield",
         "description": "Grants {icon-DEFUp.png}DEF Up, {icon-RESUp.png}RES Up to the character after being targeted by any damaging offensive action.",
         "class": "Princess",
-        "tier": 3
+        "tier": 2
     },
 
     {
         "name": "Total Shield",
         "description": "Grants {icon-DEFUp.png}DEF Up, {icon-RESUp.png}RES Up to the character after being targeted by any damaging offensive action.",
         "class": "Lord",
-        "tier": 3
+        "tier": 0
     },
 
     {
@@ -213,7 +213,7 @@
         "name": "Mute",
         "description": "Counters any offensive action taken on the character by afflicting the offender with {icon-Mute.png}Mute.",
         "class": "Vampire",
-        "tier": 3
+        "tier": 0
     },
 
     {
@@ -227,7 +227,7 @@
         "name": "Pounce",
         "description": "Counters any offensive action taken on the character by an adjacent unit by trying to jump next to the unit and attacking them with a weaker Regular Attack. Doesn't trigger if the character is underwater.",
         "class": "The Exiled",
-        "tier": 3
+        "tier": 0
     }
 
 ]
